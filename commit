@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surpresa</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(46, 2, 90);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .painel {
+            background-color: white;
+            width: 100%;
+            max-width: 500px;
+            border-radius: 20px;
+            text-align: center;
+            padding: 30px 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .painel img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        h1, h2 {
+            margin: 10px 0;
+        }
+
+        #sim {
+            padding: 10px 20px;
+            width: 100%;
+            max-width: 200px;
+            background-color: rgb(230, 241, 16);
+            border: none;
+            border-radius: 10px;
+            color: black;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #sim:hover {
+            background-color: rgb(200, 220, 10);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="painel">
+        <h1>Verdadeira dedicatória</h1>
+
+        <img src="./images/eu.jpg" alt="Imagem">
+
+        <h2>esse pode clicar</h2>
+
+        <a href="https://www.youtube.com/watch?v=3-qwqrQXsXQ" target="_blank">
+            <button id="sim">Cuidado!!!</button>
+        </a>
+    </div>
+
+</body>
+</html>
